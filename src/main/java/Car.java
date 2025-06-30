@@ -23,6 +23,10 @@ public class Car {
         this.drive = drive;
     }
 
+    public void makeSound(String value){
+        System.out.println(value);
+    }
+
     @Override
     public String toString() {
         return "Car{" +
